@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int Num1,Num2,Sum,Difference;
+    float Num3,Num4,sum,difference;
+    scanf("%d %d",&Num1,&Num2);
+    scanf("%f %f",&Num3,&Num4);
+    Sum=Num1+Num2;
+    Difference=Num1-Num2;
+    sum=Num3+Num4;
+    difference=Num3-Num4;
+    printf("%d %d",Sum,Difference);
+    printf("\n%.1f %.1f",sum,difference);
+    return 0;
+}
